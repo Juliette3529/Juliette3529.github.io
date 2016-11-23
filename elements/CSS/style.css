@@ -1,3 +1,12 @@
+/*1:#FF8C45 orange
+  2:#2FAD91 vert
+  3:#F2F2F2 blanc
+bleu fncé : #0F705B
+bleu clair : #80D6C3
+gris fonce: #212427
+gris clair : #3C3833
+*/
+
 .container {
    position: relative;
    /*margin-top: 100px;*/
@@ -11,7 +20,7 @@
    width: 30%;
    height: 300px;
    display: inline-block;
-   background-color: #E83F6F;
+   background-color: #2FAD91;
    cursor: pointer;
    position: relative;
    -webkit-transition: width .5s ease-in-out, background-color .5s ease-in-out;
@@ -23,7 +32,7 @@
  }
 
  .block:hover {
-   background-color: #2274A5;
+   background-color: #FF8C45;
    width: 50%;
    -webkit-transition: width .5s ease-in-out, background-color .5s ease-in-out;
    -moz-transition: width .5s ease-in-out, background-color .5s ease-in-out;
@@ -47,6 +56,7 @@
    -ms-transition: opacity .5s .51s ease-in-out;
    -o-transition: opacity .5s .51s ease-in-out;
    transition: opacity .5s .51s ease-in-out;
+    font-size:22px;
  }
 
  .block:hover .layer {
@@ -60,26 +70,26 @@
 
  .img-p {
    position: absolute;
-   font-size: 18px;
+   font-size: 4px;
    opacity: 0;
    color: #FFF;
    text-align: left;
+    height:auto;
 
  }
-.a{
+a{
     font-size:22px;
-    color:#F1DD23;
+    color:#0F705B;
+}
+a:hover, a:focus{
+   color: #80D6C3;
+    text-decoration: none;
 }
 .p-container {
    width: 80%;
    position: relative;
    top: 30%;
    margin-left: 5%;
- }
-
- h1 {
-   color: #fff;
-     margin-bottom:10px;
  }
 
 
@@ -151,7 +161,7 @@
  }
 
  .ua:hover .fa {
-   color: #17BEBB;
+   color: #2FAD91;
    -webkit-transform: scale(1.5);
    -moz-transform: scale(1.5);
    -ms-transform: scale(1.5);
@@ -190,19 +200,21 @@
     background-position: center;
     background-repeat: no-repeat;
     height:100%;
+    overflow:hidden;
 }
 .icone3:hover{
     background:none;
 }
-.clear{
-    height:120px;
+.footer{
+    height:100px;
 }
-.dot{
-    border-radius:50%;
-    background-color:#F1DD23;
-    width:15vw;
-    height:25vh;
+h1 {
+    color: #212427;
+    text-align: justify;
+    font-family: 'Indie Flower', cursive;
+    font-size:26px;
 }
-.dot p{
-    padding-top:10vh;
+p{
+    font-family: 'Indie Flower', cursive;
+    font-weight:600;
 }
