@@ -17,7 +17,7 @@ gris clair : #3C3833
 
  .block {
      margin-top:25px;
-   width: 30%;
+   width: 25%;
    height: 300px;
    display: inline-block;
    background-color: #2FAD91;
@@ -268,7 +268,7 @@ p{
     -webkit-animation-delay: 9s;
 	-ms-animation-delay: 9s;
 	animation-delay: 9s;
-	color: #7a6b9d;
+	color: #2FAD91;
 }
 .rw-words span:nth-child(5) {
     -webkit-animation-delay: 12s;
@@ -330,4 +330,12 @@ p{
 }
 @media screen and (max-width: 320px){
 	.rw-sentence { font-size: 9px; }
+}
+footer {
+    background-color:#2FAD91;
+    position: fixed;
+    left:0px;
+   bottom:0px;
+   height:90px;
+   width:100%;
 }
