@@ -10,13 +10,14 @@ gris clair : #3C3833
 .container {
    position: relative;
    /*margin-top: 100px;*/
-   width: 100%;
+   width: 100vw;
    text-align: center;
+    height:100vh;
  }
 
 
  .block {
-     margin-top:25px;
+     margin-top:35px;
    width: 25%;
    height: 300px;
    display: inline-block;
@@ -77,7 +78,7 @@ gris clair : #3C3833
     height:auto;
 
  }
-a{
+.img-p a{
     font-size:22px;
     color:#0F705B;
 }
@@ -209,10 +210,10 @@ a:hover, a:focus{
     height:100px;
 }
 h2 {
-    color: #212427;
+    color: #FF8C45;
     text-align: justify;
     font-family: 'Indie Flower', cursive;
-    font-size:26px;
+    font-size:30px;
 }
 p{
     font-family: 'Indie Flower', cursive;
@@ -231,9 +232,9 @@ p{
 	text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
 }
 .rw-sentence span{
-	color: #444;
+	color: #262626;
 	white-space: nowrap;
-	font-size: 200%;
+	font-size: 150%;
 	font-weight: normal;
 }
 .rw-words{
@@ -244,8 +245,9 @@ p{
 	position: absolute;
 	opacity: 0;
 	overflow: hidden;
-	width: 100%;
-	color: #2FAD91;
+	width: 200%;
+	color: #52E93A;
+    max-width:500px;
 }
 .rw-words-2 span{
 	-webkit-animation: rotateWordsSecond 18s linear infinite 0s;
@@ -256,31 +258,31 @@ p{
     -webkit-animation-delay: 3s;
 	-ms-animation-delay: 3s;
 	animation-delay: 3s;
-	color: #2FAD91;
+	color: #A052AD;
 }
 .rw-words span:nth-child(3) {
     -webkit-animation-delay: 6s;
 	-ms-animation-delay: 6s;
 	animation-delay: 6s;
-	color: #2FAD91;
+	color: #304047;
 }
 .rw-words span:nth-child(4) {
     -webkit-animation-delay: 9s;
 	-ms-animation-delay: 9s;
 	animation-delay: 9s;
-	color: #2FAD91;
+	color: #E0263E;
 }
 .rw-words span:nth-child(5) {
     -webkit-animation-delay: 12s;
 	-ms-animation-delay: 12s;
 	animation-delay: 12s;
-	color: #2FAD91;
+	color: #71E053;
 }
 .rw-words span:nth-child(6) {
     -webkit-animation-delay: 15s;
 	-ms-animation-delay: 15s;
 	animation-delay: 15s;
-	color: #2FAD91;
+	color: #E0B23E;
 }
 @-webkit-keyframes rotateWordsFirst {
     0% { opacity: 1; -webkit-animation-timing-function: ease-in; height: 0px; }
@@ -338,4 +340,15 @@ footer {
    bottom:0px;
    height:90px;
    width:100%;
+}
+footer p{
+    color:#FFF;
+    margin-bottom: -10px;
+}
+footer a{
+    color:#FFF;
+}
+footer a :hover{
+    color:#FF8C45;
+    font-size:420%;
 }
