@@ -332,7 +332,8 @@ p{
 	.rw-sentence { font-size: 1.000em; }
 }
 @media screen and (max-width: 320px){
-	.rw-sentence { font-size: 0.500em; }
+	.rw-sentence { font-size: 0.500em;
+    }
 }
 footer {
     background-color:#2FAD91;
@@ -353,4 +354,7 @@ footer a{
 footer a :hover{
     color:#FF8C45;
     font-size:420%;
+}
+.nopad{
+    padding:0px;
 }
