@@ -12,14 +12,14 @@ gris clair : #3C3833
    /*margin-top: 100px;*/
    width: 100vw;
    text-align: center;
-    height:100vh;
+    height:100%;
  }
 
 
  .block {
-     margin-top:35px;
+     margin-top:6.445672191528545vh;
    width: 25%;
-   height: 300px;
+   height: 55.248618784530386vh;
    display: inline-block;
    background-color: #2FAD91;
    cursor: pointer;
@@ -344,7 +344,8 @@ footer {
 }
 footer p{
     color:#FFF;
-    margin-bottom: -10px;
+    margin-bottom: -1.8416206261510129vh;
+    font-size:0.778em
 }
 footer a{
     color:#FFF;
