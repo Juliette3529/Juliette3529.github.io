@@ -57,7 +57,7 @@ gris clair : #3C3833
    -ms-transition: opacity .5s .51s ease-in-out;
    -o-transition: opacity .5s .51s ease-in-out;
    transition: opacity .5s .51s ease-in-out;
-    font-size:22px;
+    font-size:1.222em;
  }
 
  .block:hover .layer {
@@ -79,7 +79,7 @@ gris clair : #3C3833
 
  }
 .img-p a{
-    font-size:22px;
+    font-size:1.222em;
     color:#0F705B;
 }
 a:hover, a:focus{
@@ -113,7 +113,7 @@ a:hover, a:focus{
       }
       .block {
         width: 100%;
-        height: 200px;
+        height: 36.83241252302026vh;
          -webkit-transition: height .5s ease-in-out;
            -moz-transition: height .5s ease-in-out;
             -ms-transition: height .5s ease-in-out;
@@ -123,7 +123,7 @@ a:hover, a:focus{
 
       .block:hover {
         width: 100%;
-        height: 400px;
+        height: 73.66482504604052vh;
         -webkit-transition: height .5s ease-in-out;
            -moz-transition: height .5s ease-in-out;
             -ms-transition: height .5s ease-in-out;
@@ -202,18 +202,19 @@ a:hover, a:focus{
     background-repeat: no-repeat;
     height:100%;
     overflow:hidden;
+    margin-bottom: 20.626151012891345vh;
 }
 .icone3:hover{
     background:none;
 }
 .footer{
-    height:100px;
+    height:18.41620626151013vh;
 }
 h2 {
     color: #FF8C45;
     text-align: justify;
     font-family: 'Indie Flower', cursive;
-    font-size:30px;
+    font-size:1.667em;
 }
 p{
     font-family: 'Indie Flower', cursive;
@@ -328,17 +329,17 @@ p{
     100% { opacity: 0; }
 }
 @media screen and (max-width: 768px){
-	.rw-sentence { font-size: 18px; }
+	.rw-sentence { font-size: 1.000em; }
 }
 @media screen and (max-width: 320px){
-	.rw-sentence { font-size: 9px; }
+	.rw-sentence { font-size: 0.500em; }
 }
 footer {
     background-color:#2FAD91;
     position: fixed;
     left:0px;
    bottom:0px;
-   height:90px;
+   height:16.574585635359117vh;
    width:100%;
 }
 footer p{
