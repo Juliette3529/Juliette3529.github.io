@@ -334,6 +334,9 @@ p{
 @media screen and (max-width: 320px){
 	.rw-sentence { font-size: 0.500em;
     }
+    footer {
+        max-height: 50px;
+    }
 }
 footer {
     background-color:#2FAD91;
