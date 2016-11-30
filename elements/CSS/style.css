@@ -225,7 +225,7 @@ p{
 	position: relative;
 	font-family: 'Bree Serif';
 	padding: 10px;
-    height:20vh;
+    height:12vh;
 }
 .rw-sentence{
 	margin: 0;
@@ -343,7 +343,7 @@ footer {
     position: fixed;
     left:0px;
    bottom:0px;
-   height:16.574585635359117vh;
+   height:14.574585635359117vh;
    width:100%;
 }
 footer p{
